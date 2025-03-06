@@ -1,0 +1,109 @@
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+input{
+    width:500px;
+    height:30px;
+    border-radius: 5px;;
+    padding:10px;
+    border:none;
+    outline:none;
+    border:transparent;
+    
+}
+/* #items2{
+    background-color: lightgray;
+} */
+/* .icon{
+   
+    height:30px;
+
+} */
+ .inp{
+    background-color: lightgray;
+ }
+ input{
+    background-color: lightgray;
+ }
+ button{
+    padding: 0px 20px;
+    border:transparent;
+    width:150px;
+    height:30px;
+    outline:none;
+    
+ }
+ button:hover{
+    background-color: blue;
+    
+ }
+ /* ------------------------------------------------------------------- */
+ .container1{
+    /* width:95%; */
+    display:flex;
+    justify-content: space-between;
+    margin:10px 0px;
+    /* border:2px solid black; */
+    padding:10px;
+    background-color: lightgray;
+}
+.corosalle{
+    margin:0px auto;
+    text-align: center;
+    position:relative;
+}
+.corosalle>img{
+    width:100%;
+    
+    
+}
+.but-side{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    /* border:2px solid black; */
+    position:absolute;
+    top:70px;
+}
+/* .but-left{
+    margin-left:0px;
+}
+.but-right{
+    margin-right:0px;
+} */
+
+.but-left>button{
+    width:10px;
+    height:80px;
+}
+.but-right>button{
+    width:10px;
+    height:80px;
+   
+}
+.items{
+    text-align: center;
+}
+.bikes{
+    /* border:2px solid black; */
+    margin-top:20px;
+}
+.royal{
+    border:2px solid black;
+    width:300px;
+    height:360px;
+    text-align: center;
+    margin:0px 15px;
+    border-radius: 10px;;
+    box-shadow: 0px 0px 5px black;
+}
+.bikes img{
+    
+    width:250px;
+    height:250px;
+    
+}
+.bikes{
+    display:flex;
+}
